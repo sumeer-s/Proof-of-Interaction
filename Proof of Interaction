@@ -1,0 +1,14 @@
+pragma solidity ^0.8.0;
+
+contract ProofOfInteraction {
+    struct Interaction {
+        address user;
+        uint256 timestamp;
+    }
+    
+    Interaction[] public interactions;
+    
+    function logInteraction() public {
+        interactions.push(Interaction(msg.sender, block.timestamp));
+    }
+}

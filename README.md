@@ -15,7 +15,7 @@ The contract logs each interaction with the caller’s address and the block tim
 1. Deploy the contract on a blockchain network.
 2. Copy and paste the deployed contract address below:
 
-**Contract Address:** 0xEAC16B933191e0DfC16A9DD9B49A8212ACAC35E9
+**Contract Address:** `0xEAC16B933191e0DfC16A9DD9B49A8212ACAC35E9`
 
 ## Usage
 - Call the `logInteraction()` function to log an interaction.
